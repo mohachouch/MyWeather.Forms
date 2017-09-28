@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.iOS", "MyWeather.iOS\MyWeather.iOS.csproj", "{7F106FBA-12E5-4D92-9F4C-38EAD1652E7E}"
 EndProject
@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.UWP", "MyWeather.
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyWeather", "MyWeather.Shared\MyWeather.shproj", "{829907C9-39BF-49F2-91C3-ABFB255A9216}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeather.WPF", "MyWeather.WPF\MyWeather.WPF.csproj", "{851CE510-C9B7-4A5F-93EC-3447941FEB9D}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MyWeather.Shared\MyWeather.Shared.projitems*{65b45a0f-d6d8-432f-b36d-d7d41675dc76}*SharedItemsImports = 4
 		MyWeather.Shared\MyWeather.Shared.projitems*{7f106fba-12e5-4d92-9f4c-38ead1652e7e}*SharedItemsImports = 4
 		MyWeather.Shared\MyWeather.Shared.projitems*{829907c9-39bf-49f2-91c3-abfb255a9216}*SharedItemsImports = 13
+		MyWeather.Shared\MyWeather.Shared.projitems*{851ce510-c9b7-4a5f-93ec-3447941feb9d}*SharedItemsImports = 4
 		MyWeather.Shared\MyWeather.Shared.projitems*{e4a3f53c-2db8-4962-b8e9-7b961b4d0edc}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,8 +117,35 @@ Global
 		{E4A3F53C-2DB8-4962-B8E9-7B961B4D0EDC}.Release|x86.ActiveCfg = Release|x86
 		{E4A3F53C-2DB8-4962-B8E9-7B961B4D0EDC}.Release|x86.Build.0 = Release|x86
 		{E4A3F53C-2DB8-4962-B8E9-7B961B4D0EDC}.Release|x86.Deploy.0 = Release|x86
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|ARM.Build.0 = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|iPhone.Build.0 = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|x64.Build.0 = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{851CE510-C9B7-4A5F-93EC-3447941FEB9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAFDBA56-4B36-4B23-AEA8-43B089A0AC7F}
 	EndGlobalSection
 EndGlobal
